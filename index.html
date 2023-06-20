@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Workshop</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=Roboto:ital,wght@0,300;0,400;0,500;1,500&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>    
@@ -35,14 +36,14 @@
         </div>
         
     </div>
-    <br><br><br><br><br><br><br>
+    <br><br>
 
     <!-- multi colored div section -->
     <section>
     <div id="triplediv">
 
         <div class="patientdiv">
-            <span class="icons"><img src="./icons/patients icon.png" alt="patients icon"></span>
+            <img src="./icons/patients icon.png" alt="patients icon" width="30px" height="30px" class="icons">
             <p><span style="font-size: 30px;">
                 For patients</span> <br>    
                 Find a doctor, book a visit and solve any health-related doubt
@@ -63,7 +64,7 @@
         </div>
 
         <div class="doctordiv">
-            <span class="icons"><img src="./icons/small doctor icon.png" alt="Doctor icon"></span>
+            <span class="icons"><img src="./icons/doctor icon.png" alt="Doctor icon"  width="30px" height="30px"></span>
             <p><span style="font-size: 30px;">For doctors</span> <br>
              Save time managing visits and cut no-shows by half 
             </p>
@@ -85,7 +86,7 @@
         </div>  
             
         <div class="clinicdiv">
-             <span class="icons"><img src="./icons/clinic icon.png" alt="clinic icon"></span>
+             <span class="icons"><img src="./icons/clinic icon.png" alt="clinic icon"  width="40px" height="40px"></span>
              <p><span style="font-size: 30px;">For clinics</span> <br>
                 Deliver an exceptional patient experience in your clinic
              </p>
@@ -115,7 +116,7 @@
             </p>
         </div>
     </div>
-        <br><br><br><br><br><br><br><br>
+    
     </section>
     <!-- Section two -->
     <div class="sectiontwo">
@@ -143,20 +144,98 @@
     <section>
         <div class="bigbackground">
             <div>
-                <p><span style="color: blue; font-size: 30px;">The world's biggest healthcare platform </span></p>  
+                <p style="color: blue; font-size: 30px;">The world's biggest <br>healthcare platform</p>  
                 <br>
-                <p><span style="color: grey; font-size: 15px;">We work from 9 offices all over the world, bringing Docplanner Group to life in 13 countries.</span></p>
+                <p style="color: grey; font-size: 15px;">We work from 9 offices all over the world, bringing Docplanner <br> Group to life in 13 countries.</p>
+                
+                <img src="./logos/logocropped.png" alt="Docplannerlogo" class="croppedlog">
             </div>
             <!-- four smaller divs -->
-            <div>
-                
+            <div id="four">
+                <div class="one">
+                    <img src="./icons/flag.png" alt="flag" style="justify-content: center;">
+                    <p style="color: blue; font-size: 20px;">Leader in 13 <br>
+                        countries
+                    </p>
+                    <p>Poland, Brazil, Mexico, Spain, Italy,<br>
+                        Germany, Turkey, Colombia, Czech <br>
+                        Republic, Portugal, Argentina, Peru and <br>
+                        Chile
+                    </p>
+                </div>
+                <div class="two">
+                    <img src="./icons/visits.png" alt="visits">
+                    <p style="font-size: 20px; color: blue;">15,000,000 <br>
+                        appointments
+                    </p>
+                    <p>booked last month</p>
+                </div>
+                <div class="three">
+                    <img src="./icons/patients.png" alt="patients">
+                    <p style="font-size: 20px; color: blue;">90,000,000 <br>
+                        patients
+                    </p>
+                    <p>visit our websites each month</p>
+                </div>
+                <div class="four">
+                    <img src="./icons/doctors.png" alt="doctors">
+                    <p style="font-size: 20px; color: blue;">
+                        210,000 active <br>
+                        doctors
+                    </p>
+                    <p>trust our solutions</p>
+                </div>
             </div>
         </div>
     </section>
+    <br><br>
+    <!-- Getting to the easiest part -->
+    <section>
+    <div class="easypart">
+        <p style="color: blue; font-size: 30px; margin: 0;">
+            Improve the lives of millions.
+        </p>
+        <p style="color: blue; font-size: 30px; margin: 0;">
+            Change yours forever.
+        </p>
+        <p style="color: grey;">
+            More than 2800 team mates share our same vision, goals and passion. <br>
+            With offices in Warsaw, Barcelona, Munich, Istanbul, Rome, Rio, Bologna, <br>
+            Mexico City and Curitiba, our search for great talent never stops.
+        </p>
+    </div>    
+    </section>
+    <br><br>
 
+    <!-- Openings section -->
+    <section>
+        <div class="openings">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </section>
+    <div class="allopenings">
+        <p style="font-size: 30px;">
+            Sounds interesting? Join us now!
+        </p>
+        <br>
+        <button id="button">SEE ALL CURRENT OPENINGS</button>
+    </div>
 
     <footer>
-
+        <div class="footer">
+            <p style="color: grey; font-size: 10px;">We are leaders in 13 countries: <span style="color: blue;">Poland , Turky , Spain , Italy , Germany , Czech Republic , Portugal , Mexico , Colombia , Brazil , Argentina , Peru and Chile</span> <br>
+                This site uses cookies to deliver services in accordance with this Privacy Policy. You can specify the conditions for storing or accessing cookies on your browser. <br>
+                www.docplanner.com © 2023
+             </p>
+        </div>
     </footer>
     </div>
 </body>
