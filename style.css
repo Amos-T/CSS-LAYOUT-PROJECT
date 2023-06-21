@@ -109,11 +109,18 @@ header{
 .sectiontwo{
     display: flex;
     /* border: 2px solid black; */
-    padding: 15px 70px;
     padding-right: 70px;
+    margin-top: 0px;
     justify-content: center;
-    
+}
 
+.quote{
+    width: 250px;
+    height: 150px;
+    /* border: 2px solid black; */
+    margin-top: 0px;
+    margin-right:   100px;
+    padding: 0px;
 }
 
 .logos{
@@ -130,7 +137,7 @@ header{
     position: relative;
     font-size: 18px;
     border: none;
-    color: beige;
+    color: #517b57;
     text-decoration: underline;
     background-color: transparent;
 }
