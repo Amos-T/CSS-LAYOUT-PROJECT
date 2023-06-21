@@ -118,23 +118,29 @@ header{
 
 .logos{
     display: flex;
-    flex-wrap: wrap;
     /* border: 2px solid black; */
-    width: 250px;
-    height: 300px;
+    width: 260px;
+    height: 250px;
+    line-height: 50px;
     justify-content: center;
 }
 
+
 .custom-select{
     position: relative;
-
+    font-size: 18px;
+    border: none;
+    color: beige;
+    text-decoration: underline;
+    background-color: transparent;
 }
+
 
 /* BIG BACKGROUND SECTION */
 .bigbackground{
     display: flex;
     background-color: #98f7f1;
-    width: 1180px;
+    width: 1150px;
     height: 550px;
 }
 
@@ -148,37 +154,38 @@ header{
     display: flex;
     padding: 20px;
     flex-wrap: wrap;
+    /* border: 2px solid black; */
 
 }
 .one{
     background-color: beige;
     height: 200px;
-    width: 300px;
-    margin: 0px 20px;
+    width: 280px;
+    margin: 0px 18px;
     padding: 20px 0px 10px 15px;
-    /* border: 2px solid black; */
 }
 .two{
     background-color: beige;
     height: 200px;
-    width: 300px;
-    padding: 20px 0px 10px 15px;
+    width: 280px;
     /* border: 2px solid black; */
+    padding: 20px 0px 10px 15px;
+    
 }
 .three{
     background-color: beige;
     height: 200px;
-    width: 300px;
-    margin: 0px 20px;
+    width: 280px;
+    margin: 0px 18px;
     padding: 20px 0px 10px 15px;
-    /* border: 2px solid black; */
 }
 .four{
     background-color: beige;
     height: 200px;
-    width: 300px;
+    width: 280px;
     padding: 20px 0px 10px 15px;
     /* border: 2px solid black; */
+    
 }
 
 .easypart{
@@ -190,17 +197,95 @@ header{
     /* border: 2px solid black; */
 }
 
+.openings{
+    display: flex;
+    flex-wrap: wrap;
+    height: 1000px;
+    justify-content: center;
+    padding: 10px;
+    /* border: 2px solid black; */
+}
+
+.warsaw{
+    padding: 10px;
+    /* border: 2px solid black; */
+}
+
+.barcelona{
+    padding: 10px;
+    /* border: 2px solid black; */
+}
+
+.munich{
+    padding: 10px;
+    /* border: 2px solid black; */
+}
+
+.istanbul{
+    padding: 10px;
+    /* border: 2px solid black; */
+}
+
+.rome{
+    padding: 10px;
+    /* border: 2px solid black; */
+}
+
+.bologna{
+    padding: 10px;
+    /* border: 2px solid black; */
+}
+
+.curitiba{
+    padding: 10px;
+    /* border: 2px solid black; */
+}
+
+.riodejaneiro{
+    padding: 10px;
+    /* border: 2px solid black; */
+}
+
+.mexicocity{
+    padding: 10px;
+    /* border: 2px solid black; */
+}
 .allopenings{
     display: grid;
-    width: 1000px;
+    width: 1100px;
     justify-content: center;
+    /* border: 2px solid black; */
 }
 #button{
     display: inline-flex;
     color: beige;
+    font-size: 10px;
     background-color: #0ab1bd;
-    width: 250px;
+    width: 100px;
+    height: 25px;
+    margin-left: 145px;
+    border: none;
+    border-radius: 20px;
+    align-items: center;
     justify-content: center;
+}
+.button{
+    display: inline-flex;
+    color: beige;
+    font-size: 10px;
+    background-color: #0ab1bd;
+    width: 180px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+}
+#buttdiv{
+    padding-left: 140px;
+    justify-content: center;
+    /* border: 2px solid black; */
+    
 }
 .footer{
     width: 1000px;

@@ -50,8 +50,8 @@
                 <br>
                 <br>
             </p>    
-                <div class="custom-select">
-                    <select>
+                <div>
+                    <select class="custom-select">
                         <option value="0">Choose Country</option>
                         <option value="1">United States of America</option>
                         <option value="2">Canada</option>
@@ -71,8 +71,8 @@
             <br>
             <br>
             
-            <div class="custom-select">
-                <select>
+            <div>
+                <select class="custom-select">
                     <option value="0">Choose Country</option>
                     <option value="1">United States of America</option>
                     <option value="2">Canada</option>
@@ -94,8 +94,8 @@
              <br>
             
             
-            <div class="custom-select">
-                <select>
+            <div>
+                <select class="custom-select">
                     <option value="0">2 to 20 Specialists</option>
                     <option value="1">United States of America</option>
                     <option value="2">Canada</option>
@@ -105,7 +105,7 @@
                 </select> <br><br>    
             </div>
             <p>
-                <select>
+                <select class="custom-select">
                     <option value="0">More than 20 Specialists</option>
                     <option value="1">United States of America</option>
                     <option value="2">Canada</option>
@@ -127,16 +127,22 @@
             </p>
         </div>
         <div class="logos">
-            <img src="./logos/znanylekarz.png" alt="znanylekarz"; style="width: 70px; height: 20px;">
-            <img src="./logos/Doctoralia.png" alt="Doctoralia"; style="width: 70px; height: 20px;">
-            <img src="./logos/MioDottore.png" alt="MioDottore"; style="width: 70px; height: 20px;">
-            <img src="./logos/doktortakvimi.png" alt="doktortakvimi"; style="width: 70px; height: 20px;">
-            <img src="./logos/Znamylekar.jpg" alt="Znamylekar"; style="width: 70px; height: 20px;">
-            <img src="./logos/logo-jameda.svg" alt="logo-jameda"; style="width: 70px; height: 20px;">
-            <img src="./logos/logo-tuotempo.svg" alt="logo-tuotempo"; style="width: 70px; height: 20px;">
-            <img src="./logos/logo-gipo-primary.svg" alt="logo-gipo-primary"; style="width: 70px; height: 20px;">
-            <img src="./logos/logo-clinicloud.svg" alt="logo-clinicloud"; style="width: 70px; height: 20px;">
-            <img src="./logos/logo-feegow.svg" alt="logo-feegow"; style="width: 70px; height: 20px;">
+            <div class="c1">
+                <img src="./logos/znanylekarz.png" alt="znanylekarz"; style="width: 70px; height: 20px;">
+                <img src="./logos/doktortakvimi.png" alt="doktortakvimi"; style="width: 70px; height: 20px;">
+                <img src="./logos/logo-tuotempo.svg" alt="logo-tuotempo"; style="width: 70px; height: 20px;">
+                <img src="./logos/logo-feegow.svg" alt="logo-feegow"; style="width: 70px; height: 20px;">
+            </div>
+            <div class="c2">
+                <img src="./logos/Doctoralia.png" alt="Doctoralia"; style="width: 70px; height: 20px;">
+                <img src="./logos/Znamylekar.jpg" alt="Znamylekar"; style="width: 70px; height: 20px;">
+                <img src="./logos/logo-gipo-primary.svg" alt="logo-gipo-primary"; style="width: 70px; height: 50px;">
+            </div>
+            <div class="c3">
+                <img src="./logos/MioDottore.png" alt="MioDottore"; style="width: 70px; height: 20px;">
+                <img src="./logos/logo-jameda.svg" alt="logo-jameda"; style="width: 70px; height: 20px;">
+                <img src="./logos/logo-clinicloud.svg" alt="logo-clinicloud"; style="width: 70px; height: 50px;">
+            </div>
         </div>
     </div>
 
@@ -192,13 +198,13 @@
     <!-- Getting to the easiest part -->
     <section>
     <div class="easypart">
-        <p style="color: blue; font-size: 30px; margin: 0;">
+        <p style="color: blue; font-size: 30px; margin: 0; text-align: center;">
             Improve the lives of millions.
         </p>
-        <p style="color: blue; font-size: 30px; margin: 0;">
+        <p style="color: blue; font-size: 30px; margin: 0; text-align: center;">
             Change yours forever.
         </p>
-        <p style="color: grey;">
+        <p style="color: grey; text-align: center;">
             More than 2800 team mates share our same vision, goals and passion. <br>
             With offices in Warsaw, Barcelona, Munich, Istanbul, Rome, Rio, Bologna, <br>
             Mexico City and Curitiba, our search for great talent never stops.
@@ -210,31 +216,61 @@
     <!-- Openings section -->
     <section>
         <div class="openings">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
+            <div class="warsaw"><img src="./logos/warsaw.png" alt="Warsaw"> <br>
+                Warsaw <button id="button" >SEE OPENINGS</button>
+            </div>
+
+            <div class="barcelona"><img src="./logos/barcelona.png" alt="Barcelona"> <br>
+                Barcelona <button id="button" style="margin-left: 135px;">SEE OPENINGS</button>
+            </div>
+
+            <div class="munich"><img src="./logos/munich.png" alt="Munich"><br>
+                Munich <button id="button">SEE OPENINGS</button>
+            </div>
+        
+            <div class="istanbul"> <img src="./logos/istanbul.png" alt="Istanbul"><br>
+                Istanbul <button id="button" style="margin-left: 150px;">SEE OPENINGS</button>
+            </div>
+
+            <div class="rome"><img src="./logos/rome.png" alt="Rome"><br>
+                Rome  <button id="button" style="margin-left: 160px;">SEE OPENINGS</button>
+            </div>
+
+            <div class="bologna"><img src="./logos/bologna.png" alt="Bologna"><br>
+                Bologna <button id="button" style="margin-left: 150px;">SEE OPENINGS</button>
+            </div>
+
+            <div class="curitiba"><img src="./logos/curitiba.png" alt="Curitiba"><br>
+                Curitiba <button id="button" style="margin-left: 150px;">SEE OPENINGS</button>
+            </div>
+
+            <div class="riodejaneiro"><img src="./logos/rio-janeiro.png" alt="Rio De Janeiro"><br>
+            Rio de Janeiro <button id="button" style="margin-left: 115px;">SEE OPENINGS</button>
+            </div>
+
+            <div class="mexicocity"><img src="./logos/mexico-city.png" alt="Mexico City"><br>
+            Mexico City <button id="button" style="margin-left: 125px;">SEE OPENINGS</button>
+            </div>
         </div>
+        <br>
     </section>
     <div class="allopenings">
-        <p style="font-size: 30px;">
+        <p style="font-size: 30px; text-align: center;">
             Sounds interesting? Join us now!
         </p>
-        <br>
-        <button id="button">SEE ALL CURRENT OPENINGS</button>
+        <div id="buttdiv">
+            <button class="button">SEE ALL CURRENT OPENINGS</button>
+        </div>
+        
     </div>
-
+    <br><br><br><br>
     <footer>
         <div class="footer">
-            <p style="color: grey; font-size: 10px;">We are leaders in 13 countries: <span style="color: blue;">Poland , Turky , Spain , Italy , Germany , Czech Republic , Portugal , Mexico , Colombia , Brazil , Argentina , Peru and Chile</span> <br>
+            <p style="color: grey; font-size: 12px; text-align: center;">We are leaders in 13 countries: <span style="color: blue;">Poland , Turky , Spain , Italy , Germany , Czech Republic , Portugal , Mexico , Colombia , Brazil , Argentina , Peru and Chile</span> <br>
+                <br>
                 This site uses cookies to deliver services in accordance with this Privacy Policy. You can specify the conditions for storing or accessing cookies on your browser. <br>
                 www.docplanner.com © 2023
-             </p>
+            </p>
         </div>
     </footer>
     </div>
