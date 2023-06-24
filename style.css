@@ -64,6 +64,7 @@ header{
     align-items: center;
     /* border: 2px solid black; */
     padding: 50px;
+    margin-left: 30px;
 }
 
 .patientdiv{
@@ -147,8 +148,9 @@ header{
 .bigbackground{
     display: flex;
     background-color: #98f7f1;
-    width: 1150px;
+    width: 1190px;
     height: 550px;
+    
 }
 
 .croppedlogo{
