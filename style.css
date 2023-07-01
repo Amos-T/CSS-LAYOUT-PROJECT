@@ -150,7 +150,6 @@ header{
     background-color: #98f7f1;
     width: 1190px;
     height: 550px;
-    
 }
 
 .croppedlogo{
@@ -219,45 +218,90 @@ header{
     padding: 10px;
     /* border: 2px solid black; */
 }
+.warsaw:hover{
+    background-color: #00000042;
+    cursor: pointer;
+    /* box-shadow: #00000042; */
+}
 
 .barcelona{
     padding: 10px;
     /* border: 2px solid black; */
+}
+.barcelona:hover{
+    background-color: #00000042;
+    cursor: pointer;
+    /* box-shadow: #00000042; */
 }
 
 .munich{
     padding: 10px;
     /* border: 2px solid black; */
 }
+.munich:hover{
+    background-color: #00000042;
+    cursor: pointer;
+    /* box-shadow: #00000042; */
+}
 
 .istanbul{
     padding: 10px;
     /* border: 2px solid black; */
+}
+.istanbul:hover{
+    background-color: #00000042;
+    cursor: pointer;
+    /* box-shadow: #00000042; */
 }
 
 .rome{
     padding: 10px;
     /* border: 2px solid black; */
 }
+.rome:hover{
+    background-color: #00000042;
+    cursor: pointer;
+    /* box-shadow: #00000042; */
+}
 
 .bologna{
     padding: 10px;
     /* border: 2px solid black; */
+}
+.bologna:hover{
+    background-color: #00000042;
+    cursor: pointer;
+    /* box-shadow: #00000042; */
 }
 
 .curitiba{
     padding: 10px;
     /* border: 2px solid black; */
 }
+.curitiba:hover{
+    background-color: #00000042;
+    cursor: pointer;
+    /* box-shadow: #00000042; */
+}
 
 .riodejaneiro{
     padding: 10px;
     /* border: 2px solid black; */
 }
+.riodejaneiro:hover{
+    background-color: #00000042;
+    cursor: pointer;
+    /* box-shadow: #00000042; */
+    }
 
 .mexicocity{
     padding: 10px;
     /* border: 2px solid black; */
+}
+.mexicocity:hover{
+    background-color: #00000042;
+    cursor: pointer;
+    /* box-shadow: #00000042; */
 }
 .allopenings{
     display: grid;
